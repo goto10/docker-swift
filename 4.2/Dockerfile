@@ -16,6 +16,7 @@ RUN apt-get -q update && \
     libxml2 \
     tzdata \
     git \
+    libetpan-dev \
     libcurl4-openssl-dev \
     pkg-config \
     && update-alternatives --quiet --install /usr/bin/clang clang /usr/bin/clang-3.8 100 \
